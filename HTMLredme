@@ -1,0 +1,57 @@
+• <!DOCTYPE html> verçao
+<html>: Raiz do documento HTML.
+• <head>: Informações estruturais e metadados.
+•   <title>: Título da aba do navegador.
+
+• <body>: Conteúdo visível do site.
+•   <h1>: Título principal da página.
+•   <h2>: Segundo título em importância.
+•   <h3>: Subtítulo de terceiro nível.
+    <h4> a <h6> titulo menos importante
+•   <p>: Parágrafo de texto comum.
+•   <a>: Link para outra página.
+
+•   <img>: Exibe uma imagem na tela.
+•   <div>: Divisão ou bloco genérico.
+•   <span>: Bloco de texto em linha.
+•   <ul>: Lista não ordenada (marcadores).
+•   <ol>: Lista ordenada (numérica).
+•   <li>: Item de uma lista.
+•   <form>: Formulário para envio de dados.
+•   <input>: Campo de entrada de dados.
+        //Parametros input
+        • type: Define o tipo de entrada.
+        • name: Identificador do campo no envio.
+        • value: Valor padrão ou digitado.
+        • placeholder: Texto de dica cinza interno.
+        • required: Torna o preenchimento obrigatório.
+        • disabled: Desativa e bloqueia o campo.
+        • maxlength: Limite máximo de caracteres permitidos.
+        • min: Valor numérico ou data mínima.
+        • max: Valor numérico ou data máxima.
+        • id: Identificador único para o CSS/JavaScript.
+        • readonly: Permite apenas leitura do campo.
+        • autocomplete: Sugere preenchimento automático de dados.
+
+•   <button>: Botão clicável na página.
+        • type: Define comportamento (submit/button/reset).
+        • disabled: Desativa e bloqueia o clique.
+        • name: Nome associado ao botão enviado.
+        • value: Valor associado ao botão enviado.
+        • form: Vincula o botão ao formulário.
+        • autofocus: Foca no botão ao carregar.
+        • id: Identificador único para CSS/JavaScript.
+
+• <table>: Cria uma tabela de dados.
+•       <tr>: Linha inteira da tabela.
+•       <th>: Célula de cabeçalho (negrito).
+•       <td>: Célula de dado comum.
+
+                 // HTML SEMANTICO    
+• <header>: Cabeçalho da página ou seção.
+• <footer>: Rodapé da página ou seção.
+• <main>: Conteúdo principal do documento.
+• <section>: Seção genérica de conteúdo.
+• <article>: Conteúdo independente e completo.
+• <aside>: Conteúdo relacionado lateral (sidebar).
+• <nav>: Conjunto de links de navegação.

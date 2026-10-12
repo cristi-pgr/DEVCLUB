@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    margin: 24px 0 0 57px;
+    width: 376px;
+    height: 42px;
+    opacity: 1;
+    position: fixed;
+    right: 130px;
+}
+
+a:nth-child(2) {
+    opacity: 0.3;
+}
+
+a {
+    height: 41px;
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+.imgphone {
+    display: inline-block;
+    width: 456px;
+    height: 561.95px;
+    opacity: 1;
+    margin: 150px 0px 0 0px;
+}
+
+.Mask {
+    background: #5D5D7D;
+    width: 491px;
+    height: 901px;
+    opacity: 0.16;
+    z-index: -1;
+    position: fixed;
+    right: 0px;
+
+}
+
+.main-box {
+    display: inline-block;
+}
+
+div {
+    margin: 0 110px 0 100px;
+}
+
+h1 {
+
+    width: 368px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    color: #5D5D7D;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0px;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}

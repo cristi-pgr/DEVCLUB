@@ -1,0 +1,124 @@
+    /* Seletores Básicos
+        • *: Seleciona todos os elementos (universal).
+        • tag: Seleciona pela tag (ex: p).
+        • .classe: Seleciona elementos com aquela classe.
+        • #id: Seleciona elemento pelo ID único.
+
+    Seletores Combinadores
+        • A B: Seleciona B dentro de A (descendente).
+        • A > B: Seleciona B filho direto de A.
+        • A + B: Seleciona o primeiro B após A.
+        • A ~ B: Seleciona todos os B após A.
+
+    Cores e Fundos
+      PARAMETROS LETRAS
+            • color: Define a cor do texto.
+            • font-family: Define o tipo da fonte.
+            • font-size: Define o tamanho da fonte.
+            • font-weight: Define a espessura (negrito).
+            • font-style: Define o estilo (itálico).
+            • text-align: Define o alinhamento do texto.
+            • text-decoration: Adiciona linhas (sublinhado/riscado).
+            • text-transform: Altera para maiúsculas ou minúsculas.
+            • line-height: Define o espaçamento entre linhas.
+            • letter-spacing: Define o espaçamento entre letras.
+            • text-shadow: Adiciona sombra ao texto.
+            • word-spacing: Define o espaçamento entre palavras.
+                        PARAMETROS DE TAMAnho
+            • width: Define a largura do elemento.
+            • height: Define a altura do elemento.
+            • min-width: Define a largura mínima permitida.
+            • max-width: Define a largura máxima permitida.
+            • min-height: Define a altura mínima permitida.
+            • max-height: Define a altura máxima permitida.
+            • box-sizing: Altera o cálculo do tamanho total.
+
+                    PARAMETROS ESPAÇO 
+            • margin: Espaço externo ao redor do elemento.
+            • margin-top: Espaço externo superior do elemento.
+            • margin-right: Espaço externo direito do elemento.
+            • margin-bottom: Espaço externo inferior do elemento.
+            • margin-left: Espaço externo esquerdo do elemento.
+            • padding: Espaço interno dentro do elemento.
+            • padding-top: Espaço interno superior do elemento.
+            • padding-right: Espaço interno direito do elemento.
+            • padding-bottom: Espaço interno inferior do elemento.
+            • padding-left: Espaço interno esquerdo do elemento.
+
+        • color: Define a cor do texto.
+        • background-color: Define a cor de fundo.
+        • background-image: Define imagem de fundo.
+        • opacity: Define a transparência do elemento.
+
+    Bordas e Formas
+        • border: Define borda do elemento (espessura/estilo/cor).
+        • border-radius: Arredonda os cantos do elemento.
+        • box-shadow: Adiciona sombra ao redor do elemento.
+
+    Layout e Posicionamento
+        • display: Define o modo de exibição (block/inline/flex/grid).
+        • position: Define o tipo de posicionamento (static/relative/absolute/fixed).
+        • top / bottom: Posiciona o elemento verticalmente.
+        • left / right: Posiciona o elemento horizontalmente.
+        • z-index: Define a ordem de empilhamento (camadas).
+        • overflow: Controla o conteúdo que transborda.
+        • static: Posicionamento padrão e natural da página.
+        • relative: Move-se relativo à sua posição original.
+        • absolute: Posiciona-se relativo ao elemento pai mais próximo.
+        • fixed: Fixa-se na tela do navegador (mesmo rolando).
+        • sticky: Alterna entre relativo e fixo ao rolar.
+        
+    Flexbox e Grid (Alinhamento Avançado)
+        • flex-direction: Define a direção dos itens flexíveis.
+        • justify-content: Alinha itens no eixo principal.
+        • align-items: Alinha itens no eixo secundário.
+        • gap: Define o espaçamento entre itens.
+
+    Efeitos e Animações
+        • transition: Cria transições suaves de estilo.
+        • cursor: Altera o desenho do mouse.
+
+
+
+    Pseudo-classes (Estados)
+        • :hover: Ativa ao passar o mouse.
+        • :focus: Ativa quando o elemento é focado.
+        • :nth-child(n): Seleciona o enésimo filho do elemento.
+        • :disabled: Seleciona elementos desativados na página.
+          :active : acontece quando esta
+          :visited: quando ja foi visto pelo menos uma vez
+          :checked: vai usar em select e radio- so vai aplicar quando tiver selecionado uma opçao
+          :read-only : somente leitura 
+          :empty  : elemento que nao tem filho
+          :first-child : primeiro filho do elemento
+          :first-of-type : primeiro filho do tipo do elemento
+          :last-child : ultimo filho do elemento
+          last-of-type : ultimo filho do tipo do elemento
+          :not() : estiliza todos menos os que estao dentro do parenteses
+          :nth-last-child(n) : seleciona o enesimo filho de tras para frente
+    Pseudo-elementos (Partes)
+    
+        • ::before: Insere conteúdo antes do elemento.
+        • ::after: Insere conteúdo depois do elemento.
+        • ::placeholder: Seleciona o texto interno do input.
+
+                Responsividade e Media Queries
+        • @media: Define estilos para diferentes tamanhos de tela.
+        max-width: aplica o estilo ate o tamanho definido
+        min-width: aplica o estilo a partir do tamanho definido
+        screen: aplica o estilo apenas em telas
+        print: aplica o estilo apenas na impressao
+        all: aplica o estilo em todos os dispositivos
+        braille: aplica o estilo em leitores de tela
+        embossed: aplica o estilo em impressoras em relevo
+        handheld: aplica o estilo em dispositivos portateis
+        projection: aplica o estilo em projetores
+        speech: aplica o estilo em leitores de voz
+
+        portrait: aplica o estilo em telas na vertical
+        landscape: aplica o estilo em telas na horizontal
+
+@media screen and (max-width: 600px) {
+    /* Estilos para telas com largura máxima de 600px  para telas */
+
+    /* calc  */

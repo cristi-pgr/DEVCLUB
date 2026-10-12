@@ -1,0 +1,207 @@
+
+
+<!-- TAGs
+ Abertura
+ Fechamento
+ conteudo
+ parametros
+ elementos com conteudos x elementos sem conteudo
+-->
+<!--
+<!DOCTYPE html>  <-- Define a versao do HTML--
+
+<html lang="pt-br"><-- define que é um arquivo HTML--
+
+<head>  <--Parte nao visivel, configuraçoes--
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body> <-- Parte visivel do site--
+    
+</body>
+
+</html>
+-->
+
+    <!-- SEO - serch engine Optmization (optimizaçao dos motores de busca)-->
+
+    <!--PRINCIPAIS TAGS PARA TESTO-->
+    <!--h1 a h6 sao para titulos -->
+    <h1>Titulo mais importante</h1><!--h1 é o mais importante(recomendaçao 1 por site)-->
+    <h2>Postagens</h2>
+    <h3>Postagens mais importante</h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6><!--h1 é o menos importante em relevancia de titolos-->
+
+    <p>escrever paragravos, pode usar quantos quiser</p><!--tag <p></p> é para paragrafos usa quantos quiser-->
+  
+    <p>escrever paragravos,<br> pode usar quantos quiser</p><!--tags <br> é para quebra de linha-->
+
+        <p>escrever paragravos, <b> usar quantos quiser</b></p><!--tags <b> é para negrito-->
+            <p>escrever paragravos, <italic> usar quantos quiser</italic></p><!--tags <italic> é para deixar em italico-->
+                <p>escrever paragravos, <strong> usar quantos quiser</strong></p><!--tags <strog> é para a palavra mais importante, 
+                                                                                          mecanismos de busca vem como importante(principal diferença para bold)-->
+
+                                <!--Navegando entre pastas-->
+
+                                 <!--para por imagens o ideal é ou usar um link para fonte ou salvar na pasta ai basta pegar usando ./ -->
+                                  <!-- a imagem postada na internet pode ser removida e ai dar erro no site-->
+
+                                  <img src="./images.jpg" > <!-- exemplo na mesma pasta -->
+                                   <img src="./img/images (1).jpg" > <!-- exemplo em uma pasta(usando o ./ da para procurar) -->
+
+                                   <!-- LINKS-->
+
+                                   <a href="http://www.google.com.br/"></a><!--Entra no google-->
+                                   <br>
+                                   <a href="http://www.google.com.br/" target="_blank"></a><!-- Entra no google mas por outra aba-->
+                                       <br>
+                                   <a href="mailto:email@email.com"></a><!-- Envia um email-->
+                                       <br>
+                                   <a href="tel:554999293923/"></a><!--liga para o numero-->
+                                       <br>
+                                   <a href="./img/"></a><!-- para linkar arquivo exmplo outra pagina -->
+                                       <br>
+                                   <a href="#fim"></a><!-- Vai para lugar especifico da pagina, ele vai para onde esta o ID especifico -->
+                                   <p id="fim">Esse é o fim</p>
+
+                                   <!--Listas-->
+
+                                   <!-- Temos listas ordenadas e listas nao ordenadas-->
+
+                                   <h2>4 serie B</h2>
+
+                                   <ol> <!--Lista ordenada-->
+                                        <li> Ana </li><!--item da lista-->
+                                          <li> Bernardo </li><!--item da lista-->
+                                            <li> gustavo </li><!--item da lista-->
+                                   </ol>
+
+                                       <ul> <!--Lista nao ordenada-->
+
+                                        <li> Ana </li><!--item da lista-->
+                                          <li> Bernardo </li><!--item da lista-->
+                                            <li> gustavo </li><!--item da lista-->
+                                   </ul>
+
+                                        <!--Elementos estruturais-->
+
+
+                                    <div> </div>  <!--caixa/conteiner-->
+                                    <span></span>  <!--periodo/ vao(para mudar uma palavra dentro de um texto)-->
+
+
+                                     <!--IMAGENS-->
+                                     <img src="" alt="">  <!--src= source/origem  alt= caso a imagem nao carregue(alternativa)-->
+                                     
+                                     <figure> <!--elemento que cabe img e com elemento de texto referente a img(um pacote so tudo que tiver dentro)-->
+                                        <img src="" alt=""> 
+                                        <figcaption> </figcaption>  <!--aparece com uma descriçao da imag-->
+                                    </figure>  <!--Elementos estruturais-->
+
+
+                                                            <!--TABELAS-->
+                                    
+                                       <table border="2" cellpadding="10" bordercolor="black"> <!--TABELA- possue parametros na tabela border é borda 
+                                        cellpadding é distanciamento entre os itens
+                                        bordercolor é a cor da tabela-->
+
+                                        <tr>   <!--CADA ESPAÇO NA TABELAS-->
+                                             <th>tipo </th> <!--CABEÇALHO DA  TABELAS-->
+                                             <th>valor </th>
+                                             <th> data</th>
+                                     </tr>
+                                      <tr>
+                                         <td>tipo </td>
+                                             <td>valor </td><!--ITENS DO CORPO  DA  TABELAS-->
+                                             <td> data</td>
+                                      </tr>
+                                          
+                                   </table>
+
+                                                            <!--VIDEO EM HTML-->
+
+                                                    <video src="" controls 
+                                                    controlsList="nodowload" 
+                                                    autoplay    
+                                                    muted
+                                                    poster="">  <!--Capa para o video-->
+                                                    </video>  <!--parametro control habilita os controles do video-->
+                                                    <!-- controlsList para habilitar e desabilitar controles -->
+                                                     <!--VIDEO começa automaticamente(alguns nao deixa startar automaticamente se nao tiver mutado)-->
+                                                     <!--posso por varios formatos de video usando o parametro src dentro das tags-->
+
+
+                                                      <!--iFrame-->
+
+                                                      <Iframe src="http://www.google.com.br" width="500" height="700"></Iframe> <!--permite colocar um site dentro do site-->
+                                                      <!--o google nao permite, mas outros sites permite(é de opçao de cada criador de site)-->
+                                                      <!--Site como maps e youtube dao o iframe direto-->
+                                                       <!--tem algum parametros a mais como bordas-->
+
+
+                                                      <!--IMPUT-->
+
+                                                      <input autocomplete="street-address">  <!--input com autocomplet de rua tem varios outros complet-->
+                                                      <input disabled> <!--posso deixar disabilitado -->
+                                                      <input value=""> <!--posso dar valor-->
+                                                      <input readonly> <!--apenas le-->
+                                                      <input placeholder=""> <!--placeholder é o texto temporario dentro da caixa, enquanto nada é digitado-->
+                                                     <label for="">
+                                                        rua:
+                                                        <input type="text">
+                                                     </label> <!--posso por texto dentro de uma label com input para corelacionar eles-->
+
+                                                     <label for="rua">rua:</label> <!--outra forma de usar o label, usando o input fora do label e ligando com id-->
+                                                     <input id="rua">
+
+                                                     <input autofocus> <!--entra no site ja no foco para digitar-->
+
+                                                         <!--IMPUT parte 2-->
+
+                                                         <input type=""> <!--Temos muitos tipos de input-->
+                                                         <!--Temos muitos tipos de input(tipo de file)-->       <!--parametros file- multiplos para multiplos arquivos-->
+                                                                                                                <!--acecept tipo de arquivo que aceita-->
+                                                         
+                                                            <!--input de radio--><!--é a bolinha para escolher-->
+                                                            <!--Ex de parametros ( type="radio" id="1" name="numeros")-->
+
+                                                                <!--EX
+                                                                <h1>Qual seu numero preferido</h1>
+                                                                <label for="1">1</label>
+                                                                <input type="radio" id="1" name="numero"
+                                                                <label for="2">2</label>
+                                                                <input type="radio" id="2" name="numero"
+                                                                <label for="3">3</label>
+                                                                <input type="radio" id="3" name="numero"
+                                                                
+                                        .... ele so vai deixar escolher um dos 3 por que todos estao em um mesmo nome se mudar o nome da para selecionar os 3
+                                                                -->
+
+                                                               
+                                                   <!--FORMS
+                                                 Capturar dados de entrada (inputs)
+                                                                
+                                                action-define para qual url sera enviado os dados, se vazio envia para mesma utl
+                                                 merhod:
+                                                  get- quando mandado pela url ele manda pelo get
+                                                  post- envia dados escondido
+                                                  enctype="multipart/form-data" -- parametro do form para enviar arquivo
+                                                                    -->
+                                                        
+                         <!--form vai varios input e um botao ele invia todos dados -->   <form action="">
+                                                                                        <label for="">
+                                                                                            rua:
+                                                                                        <input type="text" name="rua" autocomplete="street-address">
+                                                                                        </label>
+                                                                                        <label>
+                                                                                            Numero:
+                                                                                            <input type="number" name="numero" >
+                                                                                        </label>
+                                                                                        <button type="submit">Enviar dados</button>
+                                                                                     </form>  
