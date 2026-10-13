@@ -121,4 +121,5 @@
 @media screen and (max-width: 600px) {
     /* Estilos para telas com largura máxima de 600px  para telas */
 
-    /* calc  */
+    /* calc usado bastante para responcividade
+    ex- posso fazer um width ocupar um valor da tela e ai usar operaçoes matematicas para melhorar -- width:calc((100vw - 400px)*2 )  */
