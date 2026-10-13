@@ -123,3 +123,8 @@
 
     /* calc usado bastante para responcividade
     ex- posso fazer um width ocupar um valor da tela e ai usar operaçoes matematicas para melhorar -- width:calc((100vw - 400px)*2 )  */
+
+    /* Fazendo o push com linhas de comando 
+    git status // para ver se tem arquis modificados
+    git add <file> // para por o arquivo em staged
+    git commit -m"mensagem"// faz o commit com a mensagem  */
